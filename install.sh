@@ -22,10 +22,10 @@ sudo rm /usr/share/X11/xkb/rules/evdev.xml
 sudo mv /tmp/evdev.xml /usr/share/X11/xkb/rules/evdev.xml
 
 # Enable AltGr
-gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:ralt_switch']"
+#gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:ralt_switch']"
 
 # Enable keyboard layouts
-gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+typo-birman-en'), ('xkb', 'ru+typo-birman-ru')]"
+#gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+typo-birman-en'), ('xkb', 'ru+typo-birman-ru')]"
 
 # Show further instructions
 echo -e "\e[32mDone! Please log out and log in again to activate the new keyboard layouts.\e[0m"
